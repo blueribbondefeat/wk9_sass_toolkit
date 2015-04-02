@@ -1,0 +1,20 @@
+nav{
+	float: left;
+	display: inline-block;
+	top: 0;
+}
+
+a:link {
+	text-decoration:none;
+
+}
+
+li:active{
+	background-color:blue;
+}
+
+
+li{
+	display: inline-block;
+	padding: 2px;
+}

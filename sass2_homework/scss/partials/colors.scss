@@ -1,0 +1,19 @@
+$jumbotron-background: lightgrey;
+
+.jumbotron{
+	background-color: $jumbotron-background;
+}
+
+$button-color: green;
+
+button{
+	background-color: $button-color;
+
+}
+
+$link-hover: red;
+
+// a:hover{
+// 	color: red;
+	
+// }

@@ -1,0 +1,29 @@
+@import "bourbon/bourbon";
+@import "partials/fonts";
+@import "partials/colors";
+@import "partials/nav";
+
+// h1{
+// 	color: red;
+// }
+
+$narrow-margin-left: 20%;
+$narrow-margin-right: 20%;
+$narrow-margin-top: 20px;
+
+$jumbotron-padding-allover: 50px;
+
+body {
+	margin-top: $narrow-margin-top;
+	margin-left: $narrow-margin-left;
+	margin-right: $narrow-margin-right;
+	background-color: none;
+}
+
+.jumbotron {
+	
+	padding: $jumbotron-padding-allover;
+}
+
+// @include columns(12 8em);
+// @include column-rule(1px solid green);

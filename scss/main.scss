@@ -1,0 +1,69 @@
+@import 'bourbon/bourbon';
+
+body {
+	background: tint(orange, 50%);
+	font-family: $helvetica;
+	font-size: golden-ratio(14px, 1);
+}
+
+p {
+	background: shade(orange, 50%);
+}
+
+//Sass IF
+$fs: 2;
+
+h1{
+	@if $fs == 1{
+		font-size: 10px;
+	}
+	@else if $fs == 2{
+		font-size: 18px;
+	}
+}
+
+//Sass for loop
+@for $i from 1 through 5{
+	.cell-#{$i} {
+		width: 1% * $i; 
+	}
+}
+
+//Sass for loop
+$i: 2;
+
+@for $i from 1 through 6{
+	.size-#{$i} {
+		font-size: 12 * $i; 
+	}
+}
+
+//Sass each loop - utility classes
+
+@each $person in amanda, dan, amy {
+    .icon-#{$person} {
+      background-image: url('/images/#{$person}.png');
+	} 
+}
+
+@each $li-icon in disc, circle, decimal {
+    .list-#{$li-icon} {
+      list-style-type: #{$li-icon};
+	}
+ }
+
+%button {
+	border: 2px solid green;
+	height: 24px;
+	min-width: 10%;
+}
+
+.button-home{
+	@extend %button;
+	background:tint(white, 50%)
+}
+
+.button-contact{
+	@extend %button;
+	font-size: 14px;
+}

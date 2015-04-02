@@ -1,0 +1,74 @@
+body {
+  background: #ffd27f;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 22.652px; }
+
+p {
+  background: #7f5200; }
+
+h1 {
+  font-size: 18px; }
+
+.cell-1 {
+  width: 1%; }
+
+.cell-2 {
+  width: 2%; }
+
+.cell-3 {
+  width: 3%; }
+
+.cell-4 {
+  width: 4%; }
+
+.cell-5 {
+  width: 5%; }
+
+.size-1 {
+  font-size: 12; }
+
+.size-2 {
+  font-size: 24; }
+
+.size-3 {
+  font-size: 36; }
+
+.size-4 {
+  font-size: 48; }
+
+.size-5 {
+  font-size: 60; }
+
+.size-6 {
+  font-size: 72; }
+
+.icon-amanda {
+  background-image: url("/images/amanda.png"); }
+
+.icon-dan {
+  background-image: url("/images/dan.png"); }
+
+.icon-amy {
+  background-image: url("/images/amy.png"); }
+
+.list-disc {
+  list-style-type: disc; }
+
+.list-circle {
+  list-style-type: circle; }
+
+.list-decimal {
+  list-style-type: decimal; }
+
+.button-home, .button-contact {
+  border: 2px solid green;
+  height: 24px;
+  min-width: 10%; }
+
+.button-home {
+  background: white; }
+
+.button-contact {
+  font-size: 14px; }
+
+/*# sourceMappingURL=main.css.map */
